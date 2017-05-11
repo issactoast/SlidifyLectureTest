@@ -14,7 +14,6 @@ github      : {user: slidify, repo: lectureSite, branch: gh-pages}
 
 
 
-
 This is a template for creating a quick website for a course using Slidify. Once you have configured `site.yml`, edited your `Rmd` source files, all you need to do is to run `blogify(".")` from the root. Slidify will automatically detect all the `Rmd` files, slidify them, and create all lecture slides along with the index page. 
 
 This sample course website, was actually generated the exact same way!
@@ -55,7 +54,6 @@ This is the output from running the above code chunk.
 1. [Lecture 01](lectures/01/index.html)
 2. [Lecture 02](lectures/02/index.html)
 3. [Lecture 03](lectures/03/index.html)
-
 
 ## Features
 
