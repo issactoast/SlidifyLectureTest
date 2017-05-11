@@ -9,7 +9,7 @@ github      : {user: issactoast,
                branch: gh-pages}
 ---
 
-# Slidify를 이용한 렉쳐노트 페이지 만들기 실험
+# Slidify를 이용한 렉쳐노트 페이지 만들기(실험)
 
 <a href="http://prose.io/issactoast/SlidifyLectureTest/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a> 
 
@@ -17,7 +17,16 @@ github      : {user: issactoast,
 
 
 
+
+
 이것은 Slidify를 사용하는 과정을위한 빠른 웹 사이트를 만들기위한 템플릿입니다. 소스 파일 을 구성 `site.yml`하고 편집 한 후에 는 루트에서 `Rmd`실행 `blogify(".")`하면됩니다. Slidify는 자동으로 모든`Rmd`파일을 감지하고 슬라이드 한 다음 색인 페이지와 함께 모든 강의 슬라이드를 만듭니다.
+
+`blogify(".")` 함수를 실행하기 위해서는 반드시 다음의 세개의 팩키지 설치에 성공해야하며, `blogify(".")` 함수 실행시 `R`에 아래의 세개 팩키지를 로드하고 있어야한다.
+
+ - library(slidify)
+ - library(slidifyLibraries)
+ - library(poirot)
+
 
 이 샘플 과정 웹 사이트는 실제로 정확히 같은 방식으로 생성되었습니다.
 
