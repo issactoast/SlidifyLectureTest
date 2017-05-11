@@ -9,7 +9,7 @@ github      : {user: issactoast, repo: SlidifyLectureTest, branch: gh-pages}
 
 # Course Title 
 
-<a href="http://prose.io/issactoast/SlidifyLectureTest/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a>
+/* <a href="http://prose.io/issactoast/SlidifyLectureTest/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a> */
 
 
 
