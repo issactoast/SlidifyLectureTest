@@ -1,11 +1,16 @@
 ---
-title    : Lecture 01
-subtitle : My Lectures
-author   : Issac Lee
-mode     : selfcontained # {standalone, draft}
-url      : {lib: "../../libraries", assets: "../../assets"}
-lecnum   : "01"
-widgets  : [bootstrap, quiz]
+title: Lecture 01
+subtitle: My Lectures
+author: Issac Lee
+mode: selfcontained
+url:
+  lib: ../../libraries
+  assets: ../../assets
+lecnum: '01'
+widgets:
+  - bootstrap
+  - quiz
+published: true
 ---
 
 ## Introduction
@@ -16,7 +21,7 @@ This is the first lecture
 
 ## A Quiz
 
-What is 1 + 1?
+What is 1 + 1??
 
 1. 1
 2. _2_
@@ -30,7 +35,3 @@ This is easy!
 *** .explanation
 
 Really, you don't know how?
-
-
-
-
