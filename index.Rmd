@@ -4,7 +4,7 @@ author      : Issac Lee
 framework   : minimal
 hitheme     : solarized_light
 mode        : selfcontained
-github      : {user: slidify, repo: lectureSite, branch: gh-pages}
+github      : {user: issactoast, repo: SlidifyLectureTest, branch: gh-pages}
 ---
 
 # Course Title 
