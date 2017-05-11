@@ -10,10 +10,11 @@
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel=stylesheet href="./assets/css/gh-buttons.css"></link>
-    <link rel=stylesheet href="./assets/css/ribbons.css"></link>
-  </head>
+        <link rel=stylesheet href="./assets/css/gh-buttons.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
+    
+  </head>
   <body>
     <div class="wrapper">
 <header>
@@ -25,7 +26,7 @@
     <!-- <a href="http://github.com/issactoast/SlidifyLectureTest">
      View the Project on GitHub <small>issactoast/SlidifyLectureTest</small>
     </a>
-    <img width='150px' src='assets/img/'></img>
+    <img width='150px' src='assets/img/slidify_logo_big.png'></img>
     -->
   </p>
   <ul class='buttons'>
@@ -45,15 +46,15 @@
 
       <section>
         <h1>Slidify를 이용한 렉쳐노트 페이지 만들기 실험</h1>
-<!-- <a href="http://prose.io/issactoast/SlidifyLectureTest/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a> --> 
+<p><a href="http://prose.io/issactoast/SlidifyLectureTest/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a> </p>
 
-<p>This is a template for creating a quick website for a course using Slidify. Once you have configured <code>site.yml</code>, edited your <code>Rmd</code> source files, all you need to do is to run <code>blogify(&quot;.&quot;)</code> from the root. Slidify will automatically detect all the <code>Rmd</code> files, slidify them, and create all lecture slides along with the index page. </p>
+<p>이것은 Slidify를 사용하는 과정을위한 빠른 웹 사이트를 만들기위한 템플릿입니다. 소스 파일 을 구성 <code>site.yml</code>하고 편집 한 후에 는 루트에서 <code>Rmd</code>실행 <code>blogify(&quot;.&quot;)</code>하면됩니다. Slidify는 자동으로 모든<code>Rmd</code>파일을 감지하고 슬라이드 한 다음 색인 페이지와 함께 모든 강의 슬라이드를 만듭니다.</p>
 
-<p>This sample course website, was actually generated the exact same way!</p>
+<p>이 샘플 과정 웹 사이트는 실제로 정확히 같은 방식으로 생성되었습니다.</p>
 
-<h2>Structure</h2>
+<h2>구조</h2>
 
-<p>The first thing to understand is the folder structure. The <code>lectures</code> folder holds your lecture slides, one subfolder per lecture. </p>
+<p>가장 먼저 이해해야 할 것은 폴더 구조입니다. <code>lectures</code> 폴더에는 강의 슬라이드, 강의 당 하나 의 하위 폴더가 있습니다.</p>
 
 <pre><code>assets      -&gt; put custom img/js/css/layout assets
 lectures    -&gt; folder containing lectures
@@ -65,13 +66,13 @@ index.Rmd   -&gt; Rmd source for home page
 site.yml    -&gt; Site related configuration
 </code></pre>
 
-<h2>Configuration</h2>
+<p>##구성</p>
 
-<p>The file <code>site.yml</code> contains properties that need to be customized. A property named <code>foo</code> in <code>site.yml</code> can be accessed in any of the layout files as <code>site.foo</code>.</p>
+<p>이 파일 <code>site.yml</code>에는 사용자 정의해야 할 특성이 들어 있습니다. <code>site.yml</code> 파일에 자신의 github ID와 repo를 업데이트 해줘야함.</p>
 
-<h2>Navigation</h2>
+<h2>강의 리스트 자동 업데이트</h2>
 
-<p>It is easy to automatically add a list of lectures by adding the following code chunk to your <code>index.Rmd</code>. It assumes that you are using the same folder structure and naming scheme. If you use a different scheme, make sure that you tweak the code in this code chunk.</p>
+<p>다음 코드 덩어리를 추가하여 강의 목록을 자동으로 <code>index.Rmd</code>에 쉽게 추가 할 수 있습니다. 동일한 폴더 구조 및 명명 체계를 사용하고 있다고 가정합니다. 다른 스키마를 사용하는 경우이 코드 조각에서 코드를 조정해야합니다.</p>
 
 <pre><code>```{r echo = F, results = &#39;asis&#39;}
 lectures = dir(&#39;lectures&#39;, full = TRUE)
@@ -82,7 +83,7 @@ writeLines(links)
 ```
 </code></pre>
 
-<p>This is the output from running the above code chunk.</p>
+<p>위 코드 덩어리를 실행 한 결과입니다.</p>
 
 <ol>
 <li><a href="lectures/01/index.html">Lecture 01</a></li>
@@ -90,9 +91,9 @@ writeLines(links)
 <li><a href="lectures/03/index.html">Lecture 03</a></li>
 </ol>
 
-<h2>Features</h2>
+<h2>추가 특성</h2>
 
-<p>One nice feature you will notice is that all lecture slides automatically get an <code>edit</code> button, that when clicked opens up the <code>Rmd</code> source in <code>prose.io</code>. This makes it easy for people to correct typos, and contribute to your lecture slides.</p>
+<p>이 Slidy 렉쳐버젼을 사용하면 한 가지 좋은 점은 모든 강의 슬라이드가 자동으로 edit버튼을 얻는다는 것 입니다. 슬라이드의 <code>edit</code>버튼을 클릭하면 소스가 열립니다. 이를 통해 사람들은 오타를 바로 잡고 강의 슬라이드에 기여할 수 있습니다.</p>
 
 <p><a href='lectures/01/#3'>
    <img style='border: 1px solid;' width=100% src=http://www.clipular.com/c?14735047=rpmipgzz3PAoKUVW7jQ4hE30iKk&f=.png></img>

@@ -1,7 +1,7 @@
 ---
 title    : Lecture 01
 subtitle : My Lectures
-author   : Ramnath
+author   : Issac Lee
 mode     : selfcontained # {standalone, draft}
 url      : {lib: "../../libraries", assets: "../../assets"}
 lecnum   : "01"
