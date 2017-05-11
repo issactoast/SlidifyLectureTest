@@ -1,6 +1,6 @@
 ---
 title       : My Lectures
-author      : Ramnath Vaidyanathan
+author      : Issac Lee
 framework   : minimal
 hitheme     : solarized_light
 mode        : selfcontained
