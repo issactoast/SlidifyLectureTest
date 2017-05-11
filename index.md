@@ -4,12 +4,14 @@ author      : Issac Lee
 framework   : minimal
 hitheme     : solarized_light
 mode        : selfcontained
-github      : {user: issactoast, repo: SlidifyLectureTest, branch: gh-pages}
+github      : {user: issactoast,
+               repo: SlidifyLectureTest,
+               branch: gh-pages}
 ---
 
-# Course Title 
+# Slidify를 이용한 렉쳐노트 페이지 만들기 실험
 
-/* <a href="http://prose.io/issactoast/SlidifyLectureTest/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a> */
+<!-- <a href="http://prose.io/issactoast/SlidifyLectureTest/edit/gh-pages/index.Rmd" class="button icon edit">Edit Page</a> --> 
 
 
 
